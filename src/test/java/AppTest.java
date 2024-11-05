@@ -10,7 +10,7 @@ public class AppTest {
 
         String result = myApp.getStatus();
 
-        assertEquals("OK, It is tested", result);
+        assertEquals("OK, It is tested...Git Hub Actions...Verified", result);
     }
 
 }
