@@ -9,8 +9,8 @@ public class AppTest {
         App myApp = new App();
 
         String result = myApp.getStatus();
-
-        assertEquals("OK, It is tested...Git Hub Actions...Verified", result);
+        System.out.println("Hello Gradle...");
+        assertEquals("OK", result);
     }
 
 }
